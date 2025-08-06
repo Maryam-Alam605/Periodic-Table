@@ -1,0 +1,154 @@
+h1 {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+}
+.alkali-metals {
+  background-color: #f5cbcb;
+}
+.alkali-earth-metals {
+  background-color: #b7c8dfd4;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+td {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  border-radius: 4px;
+  margin: 10px;
+}
+td:empty {
+  background-color: white;
+  border: none;
+}
+.transition-metal {
+  background-color: #f0e68c;
+}
+.post-transition-metal {
+  background-color: #bde7ab;
+}
+.metalloids {
+  background-color: #cbcdc2;
+}
+.unknown-properties {
+  background-color: #e0cdef;
+}
+.noble-gases {
+  background-color: #b0e0e6;
+}
+.reactive-non-metal {
+  background-color: #ffcccb;
+}
+.lanthanides {
+  background-color: #cde8e9;
+}
+.actinides {
+  background-color: #e7c0a4;
+}
+
+td {
+  border: 2px solid transparent;
+}
+td:hover {
+  cursor: pointer;
+}
+
+.alkali-metals:hover {
+  color: white;
+  text-shadow: 0 0 2px #f5cbcb, 0 0 4px #f5cbcb, 0 0 8px #f5cbcb,
+    0 0 12px #f5cbcb;
+  box-shadow: 0 0 5px #f5cbcb, 0 0 10px #f5cbcb, 0 0 20px #f5cbcb,
+    0 0 40px #f5cbcb;
+  border: 2px solid white;
+}
+
+.alkali-earth-metals:hover {
+  color: white;
+  text-shadow: 0 0 2px #b7c8df, 0 0 4px #b7c8df, 0 0 8px #b7c8df,
+    0 0 12px #b7c8df;
+  box-shadow: 0 0 5px #b7c8df, 0 0 10px #b7c8df, 0 0 20px #b7c8df,
+    0 0 40px #b7c8df;
+  border: 2px solid white;
+}
+
+.transition-metal:hover {
+  color: white;
+  text-shadow: 0 0 2px #f0e68c, 0 0 4px #f0e68c, 0 0 8px #f0e68c,
+    0 0 12px #f0e68c;
+  box-shadow: 0 0 5px #f0e68c, 0 0 10px #f0e68c, 0 0 20px #f0e68c,
+    0 0 40px #f0e68c;
+  border: 2px solid white;
+}
+
+.post-transition-metal:hover {
+  color: white;
+  text-shadow: 0 0 2px #ddf6d2, 0 0 4px #ddf6d2, 0 0 8px #ddf6d2,
+    0 0 12px #ddf6d2;
+  box-shadow: 0 0 5px #ddf6d2, 0 0 10px #ddf6d2, 0 0 20px #ddf6d2,
+    0 0 40px #ddf6d2;
+  border: 2px solid white;
+}
+
+.metalloids:hover {
+  color: white;
+  text-shadow: 0 0 2px #d3d3d3, 0 0 4px #d3d3d3, 0 0 8px #d3d3d3,
+    0 0 12px #d3d3d3;
+  box-shadow: 0 0 5px #d3d3d3, 0 0 10px #d3d3d3, 0 0 20px #d3d3d3,
+    0 0 40px #d3d3d3;
+  border: 2px solid white;
+}
+
+.unknown-properties:hover {
+  color: white;
+  text-shadow: 0 0 2px #e0cdef, 0 0 4px #e0cdef, 0 0 8px #e0cdef,
+    0 0 12px #e0cdef;
+  box-shadow: 0 0 5px #e0cdef, 0 0 10px #e0cdef, 0 0 20px #e0cdef,
+    0 0 40px #e0cdef;
+  border: 2px solid white;
+}
+
+.noble-gases:hover {
+  color: white;
+  text-shadow: 0 0 2px #b0e0e6, 0 0 4px #b0e0e6, 0 0 8px #b0e0e6,
+    0 0 12px #b0e0e6;
+  box-shadow: 0 0 5px #b0e0e6, 0 0 10px #b0e0e6, 0 0 20px #b0e0e6,
+    0 0 40px #b0e0e6;
+  border: 2px solid white;
+}
+
+.reactive-non-metal:hover {
+  color: white;
+  text-shadow: 0 0 2px #ffcccb, 0 0 4px #ffcccb, 0 0 8px #ffcccb,
+    0 0 12px #ffcccb;
+  box-shadow: 0 0 5px #ffcccb, 0 0 10px #ffcccb, 0 0 20px #ffcccb,
+    0 0 40px #ffcccb;
+  border: 2px solid white;
+}
+
+.lanthanides:hover {
+  color: white;
+  text-shadow: 0 0 2px #cde8e9, 0 0 4px #cde8e9, 0 0 8px #cde8e9,
+    0 0 12px #cde8e9;
+  box-shadow: 0 0 5px #cde8e9, 0 0 10px #cde8e9, 0 0 20px #cde8e9,
+    0 0 40px #cde8e9;
+  border: 2px solid white;
+}
+
+.actinides:hover {
+  color: white;
+  text-shadow: 0 0 2px #e7c0a4, 0 0 4px #e7c0a4, 0 0 8px #e7c0a4,
+    0 0 12px #e7c0a4;
+  box-shadow: 0 0 5px #e7c0a4, 0 0 10px #e7c0a4, 0 0 20px #e7c0a4,
+    0 0 40px #e7c0a4;
+  border: 2px solid white;
+}
